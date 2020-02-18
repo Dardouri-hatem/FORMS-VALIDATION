@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,52,67,1) 0%, rgba(48,53,84,1) 48%);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+    margin-left: 40%;
+    padding-top: 100px ;
+    
+}
+form input,textarea{
+    height: 30px;
+    margin-top: 10px;
+    background: #2d293a;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.75); 
+    color: white;  
+    border: transparent;
+    
+}
+form label{
+    margin-top: 10px;
+    color: white;
+    background: transparent;
+}
